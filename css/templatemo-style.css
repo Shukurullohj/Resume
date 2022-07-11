@@ -420,6 +420,12 @@ a:hover, a:active, a:focus {
   background: #E9724C;
 }
 
+#service h2 {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
 #service p {
   font-size: 18px;
   line-height: 30px;
@@ -443,8 +449,6 @@ a:hover, a:active, a:focus {
 #language .language-img {
   background: url('../images/language.jpeg') no-repeat top  !important;
   background-size: 105% !important;
-  width: 100%;
-  height: 100% !important;
 }
 
 #language {
@@ -657,6 +661,11 @@ footer {
 -----------------------------------------*/
 
 @media only screen and (max-width: 580px) {
+
+  .section-title {
+    padding-top: 30px;
+  }
+
   h1 {
     font-size: 32px;
   }
@@ -670,6 +679,14 @@ footer {
     font-size: 22px;
     line-height: inherit;
   }
+
+  #language .language-img {
+    min-height: 28vh;
+  }
+
+  #home .home-img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -677,6 +694,9 @@ footer {
     line-height: 18px;
   }
 
+  #language .language-img {
+    background-size: 170% !important;
+  }
   #home .home-thumb {
     height: auto;
     padding-top: 32px;
@@ -709,9 +729,11 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   .section-title {
-    padding-bottom: 12px;
+    padding: 30px 0;
   }
-
+  #language .language-img {
+    background-size: 210% !important;
+  }
   footer {
     padding: 40px 0;
   }
