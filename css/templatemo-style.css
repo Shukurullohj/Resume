@@ -680,9 +680,6 @@ footer {
     line-height: inherit;
   }
 
-  #language .language-img {
-    min-height: 28vh;
-  }
 
   #home .home-img {
     display: none;
@@ -692,6 +689,10 @@ footer {
 @media only screen and (max-width: 767px) {
   .custom-navbar .navbar-brand {
     line-height: 18px;
+  }
+
+  #language .language-img {
+    min-height: 28vh;
   }
 
   #language .language-img {
