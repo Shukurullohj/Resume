@@ -76,6 +76,9 @@ p {
     line-height: 28px;
     letter-spacing: 0.2px;
 }
+.small {
+  font-size: 8px;
+}
 
 .section-btn {
   background-color: transparent;
